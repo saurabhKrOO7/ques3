@@ -1,0 +1,91 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.mainBody{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;   
+}
+
+.header h1{
+  text-align: center;
+  margin: 30px;
+  color: #261185;
+}
+
+.Recipe1{
+    margin-left: 30px;
+    border: 1px solid black;
+    height: 600px;
+    background-color: rgb(247, 238, 226);
+}
+
+.title{
+    height: 50px;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 1.6rem;
+    font-weight: 900;
+    font-family: "Poppins",sans-serif;
+}
+
+.pic{
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+img{
+    height: 200px;
+    width: 230px;
+    border-radius: 150px;
+}
+
+.calorie{
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-around;
+    font-size: 1.1rem;  
+}
+
+.serving, .cal {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.benefit{
+    margin-top: 40px;
+    text-align: center;
+}
+
+li{
+    list-style-type: none;
+}
+
+.linkToRecipe{
+    margin-top: 40px;
+    text-align: center;
+}
+
+.linkToRecipe a{
+    font-style: italic;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.Recipe2{
+    border: 1px solid black;
+    height: 600px;
+    background-color: rgb(199, 252, 234);
+}
+
+.Recipe3{
+    border: 1px solid black;
+    height: 600px;   
+    background-color: rgb(197, 247, 247);
+    margin-right: 30px;
+}
